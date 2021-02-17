@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8779306972658735844
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8779306972658735842}
+  - component: {fileID: 8779306972658735845}
+  m_Layer: 0
+  m_Name: GroundSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8779306972658735842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779306972658735844}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.5472593, y: -2.1162996, z: 4.02868}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8779306972658735845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8779306972658735844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086042f63322f6246b979eaeed74d799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundTile: {fileID: 2210605853567857592, guid: aea3bdd05ef07e44bac32e14071f58d7,
+    type: 3}
+  groundTiles:
+  - {fileID: 2210605853567857592, guid: 3e8d37e2c7477d44ca3f8713ad84bee9, type: 3}
+  - {fileID: 2210605853567857592, guid: 80c7890909c398f48b829df5ccaf9f8b, type: 3}
+  - {fileID: 2210605853567857592, guid: 84cd5f31200947c48b58615eb675ffa2, type: 3}
+  - {fileID: 2210605853567857592, guid: f5f113471ae13444e957f9b5d5fe2cab, type: 3}
+  - {fileID: 2210605853567857592, guid: e68865ad7f3282d4fb4296c13c3fd8d5, type: 3}
+  - {fileID: 2210605853567857592, guid: 7d0532defd1ad4c4188065020467f3b9, type: 3}
+  - {fileID: 2210605853567857592, guid: 9ebaf11f6670e164a970d095670aaab9, type: 3}
+  - {fileID: 2210605853567857592, guid: e1724012384f77d45a85f04692f579f3, type: 3}
+  LevelTrigger: {fileID: 1014534282265165108, guid: 8676523b4a7f3a843812e29e1cca6a87,
+    type: 3}
