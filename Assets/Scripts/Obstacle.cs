@@ -13,6 +13,9 @@ public class Obstacle : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        player.Die();
+        if (collision.gameObject.tag == "Player")
+        {
+            player.Die();
+        }
     }
 }
